@@ -1,14 +1,9 @@
 ﻿namespace Library
 {
-    public class Author
+    public class Author : Person
     {
-        public string Name { get; }
-        public string Surname { get; }
-
-        public Author(string name, string surname)
+        public Author(string name, string surname) : base(name, surname)
         {
-            Name = name;
-            Surname = surname;
         }
 
         public override string ToString()

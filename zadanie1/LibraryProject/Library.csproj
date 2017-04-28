@@ -49,6 +49,7 @@
     <Compile Include="DataRepository.cs" />
     <Compile Include="Author.cs" />
     <Compile Include="NullDataProvider.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="RandomDataProvider.cs" />
     <Compile Include="Reader.cs" />
     <Compile Include="Book.cs" />

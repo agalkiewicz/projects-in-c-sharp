@@ -1,15 +1,11 @@
 ﻿namespace Library
 {
-    public class Reader
+    public class Reader : Person
     {
-        public string Name { get; set; }
-        public string Surname { get; set; }
         public uint IdNumber { get; private set; }
 
-        public Reader(string name, string surname, uint idNumber)
+        public Reader(string name, string surname, uint idNumber) : base(name, surname)
         {
-            Name = name;
-            Surname = surname;
             IdNumber = idNumber;
         }
 
